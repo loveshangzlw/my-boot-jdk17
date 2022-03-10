@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
     <groupId>cn.penstaro</groupId>
-    <artifactId>my-boot-17.2</artifactId>
+    <artifactId>my-boot-jdk17</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
