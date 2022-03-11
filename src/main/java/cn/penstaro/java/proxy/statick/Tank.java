@@ -1,4 +1,4 @@
-package cn.penstaro.java.Proxy;
+package cn.penstaro.java.proxy.statick;
 
 import java.util.Random;
 
