@@ -23,15 +23,15 @@ public class Person {
 
     public static class PersonBuilder{
         Person p = new Person();
-        public PersonBuilder b1(String name){
+        public PersonBuilder constructorName(String name){
             p.name = name;
             return this;
         }
-        public PersonBuilder b2(int age){
+        public PersonBuilder constructorAge(int age){
             p.age = age;
             return this;
         }
-        public PersonBuilder b3(int cityId,int strId){
+        public PersonBuilder constructorLocation(int cityId, int strId){
             p.loc = new Location(cityId,strId);
             return this;
         }
@@ -41,7 +41,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person p = new PersonBuilder().b1("Tom").b2(3).b3(500108, 401336).build();
+        Person p = new PersonBuilder().constructorName("Tom").constructorAge(3).constructorLocation(500108, 401336).build();
         System.out.println(p);
     }
 }
