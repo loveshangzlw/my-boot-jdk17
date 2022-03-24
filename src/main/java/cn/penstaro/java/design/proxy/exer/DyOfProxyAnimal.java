@@ -1,4 +1,4 @@
-package cn.penstaro.java.proxy.exer;
+package cn.penstaro.java.design.proxy.exer;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

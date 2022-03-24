@@ -1,4 +1,4 @@
-package cn.penstaro.java.proxy.dynamic;
+package cn.penstaro.java.design.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
